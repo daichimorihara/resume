@@ -3,6 +3,8 @@
 職務経歴書
 ======
 
+**[GitHub Pages](https://daichimorihara.github.io/resume/)からもご覧いただけます**
+
 基本情報
 -------
 |項目|内容|

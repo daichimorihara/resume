@@ -3,6 +3,8 @@ English | [日本語](README.md)
 Resume
 ======
 
+**Also available on[GitHub Pages](https://daichimorihara.github.io/resume/)**
+
 Basic Information
 -------
 |Item|Details|
