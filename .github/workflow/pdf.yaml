@@ -1,33 +1,22 @@
-name: Release PDF
+name: Create Release
 
 on:
-  pull_request:
-    branches: [main]
-    paths: ["docs/README.md"]
-  workflow_dispatch:
+  push:
+    # This workflow will run on any new tag that starts with 'v'
+    tags:
+      - "v*"
 
 jobs:
   release:
-    name: Release PDF
     runs-on: ubuntu-latest
-    timeout-minutes: 3
     permissions:
-      contents: write
-      pull-requests: write
+      contents: write # This permission is required to create a release and upload assets
     steps:
-      - name: Run actions/checkout
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
-      - name: Run oven-sh/setup-bun
-        uses: oven-sh/setup-bun@4bc047ad259df6fc24a6c9b0f9a0cb08cf17fbe5 # v2
-      - name: Run bun install
-        run: bun install --no-save
-      - name: Run bun build:pdf
-        run: bun build:pdf
-      - name: Create a draft release
-        uses: softprops/action-gh-release@e7a8f85e1c67a31e6ed99a94b41bd0b71bbee6b8 # v2
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Upload PDF to Release
+        uses: softprops/action-gh-release@v1
         with:
-          body: ${{ github.event.pull_request.title }}
-          draft: true
-          fail_on_unmatched_files: true
-          files: README.pdf
-          name: Release ${{ github.ref }}
+          files: |
+            readme.pdf
