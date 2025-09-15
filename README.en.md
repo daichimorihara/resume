@@ -49,6 +49,8 @@ Published Articles
 -------
 |Date|Article|
 |---|---|
+|August 2025|[A Hybrid IaC Strategy: Safely Releasing with Terraform While Preserving the Amazon Connect GUI Development Experience](https://nealle-dev.hatenablog.com/entry/2025/08/28/102131)|
+|August 2025|[Datadog Cost Optimization: How We Reduced Log Costs by 70%](https://nealle-dev.hatenablog.com/entry/2025/08/18/131030)|
 |June 2025|[Improving Batch Monitoring + Reducing the Toil of Manual Retries and a Failure Story of Soaring NAT Gateway Costs](https://nealle-dev.hatenablog.com/entry/2025/06/27/104521)|
 |June 2025|[How to Change KMS Keys for Amazon Aurora Without Changing the Endpoint](https://nealle-dev.hatenablog.com/entry/2025/06/24/154358)|
 |April 2025|[A Solution for When WAF Blocking Doesn't Work in an S3 + CloudFront SPA Configuration](https://nealle-dev.hatenablog.com/entry/2025/04/22/114803)|

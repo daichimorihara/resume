@@ -50,6 +50,8 @@
 -------
 |日付|記事|
 |---|---|
+|2025/08|[Amazon ConnectのGUI開発体験を維持しつつ、Terraformで安全にリリースするハイブリッドIaC戦略](https://nealle-dev.hatenablog.com/entry/2025/08/28/102131)|
+|2025/08|[Datadogのコスト最適化〜ログのコストを70%削減した話〜](https://nealle-dev.hatenablog.com/entry/2025/08/18/131030)|
 |2025/06|[バッチ監視改善 ~手動再実行のトイル削減とNAT gatewayコスト急増の失敗談付き〜](https://nealle-dev.hatenablog.com/entry/2025/06/27/104521)|
 |2025/06|[Amazon Auroraのエンドポイントを変えずにKMSキーを交換する方法](https://nealle-dev.hatenablog.com/entry/2025/06/24/154358)|
 |2025/04|[S3 + CloudFront構成のSPAでWAFによるブロックが効かないときの解決策](https://nealle-dev.hatenablog.com/entry/2025/04/22/114803)|
